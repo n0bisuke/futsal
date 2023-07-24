@@ -1,7 +1,16 @@
 
+import { datetime } from "https://deno.land/x/ptera@v1.0.2/mod.ts";
+// timezone
+// datetime().toZonedTime("Asia/Tokyo");
+const targetDate = datetime().toZonedTime("Asia/Tokyo").format("YYYYMMMMdd");
+// datetime("2021-06-30T21:15:30.200");
+
 const DOMAIN = 'labola.jp';
 const AREA = 'area-13';
-const BASE_URL = `https://${DOMAIN}/reserve/events/search/personal/${AREA}/`;
+const DAY = `day-${targetDate}`;
+
+const BASE_URL = `https://${DOMAIN}/reserve/events/search/personal/${AREA}/${DAY}`;
+
 
 const json = fetch(BASE_URL);
 

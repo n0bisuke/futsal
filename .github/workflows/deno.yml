@@ -1,11 +1,10 @@
-name: 毎時間実行
+name: 毎時間
 
 on:
   push:
     branches: [ main ]
   schedule:
     - cron:  '0 * * * *'
-
 
 jobs:
   build:

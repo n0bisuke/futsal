@@ -96,7 +96,7 @@ const getPage = async (pageCount:number = 1) => {
       eventCount: events.length,
       events: events,
     }
-    await Deno.writeTextFile("output.json", JSON.stringify(result, null, 2));
+    await Deno.writeTextFile("docs/output.json", JSON.stringify(result, null, 2));
   }
 }
 

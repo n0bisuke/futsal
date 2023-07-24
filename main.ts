@@ -73,6 +73,23 @@ const hasNextPage = (html:string) => {
   return hasNextPage;
 }
 
+//過去のファイルを削除
+const oldFilesDel = async (targetDate: string) => {
+  for await (const file of Deno.readDir(`./docs`)) {
+    const [fileDate,fileEx] = file.name.split('.');
+    if(fileEx !== 'json') continue;
+
+    const targetDateNum = Number(targetDate) - 7; //7日前のファイルを消す
+    
+    console.log(fileDate,fileEx,targetDate, targetDateNum)
+
+    if(Number(fileDate) < targetDateNum){
+      console.log(`file.name`)
+      Deno.removeSync(`docs/${file.name}`);
+    }
+  }
+}
+
 let events: any[] = [];
 
 // deno-lint-ignore no-inferrable-types
@@ -89,15 +106,24 @@ const getPage = async (pageCount:number = 1) => {
     getPage(++pageCount);
   }else{
     console.log(`done`);
-    console.log(events);
+    // console.log(events);
 
     const result = {
+      lastUpdated: datetime().toZonedTime("Asia/Tokyo").format("YYYY/MM/dd HH:mm:ss"),
       date: targetDate,
       eventCount: events.length,
       events: events,
     }
+    //ファイル書き込み
     await Deno.writeTextFile(`docs/${targetDate}.json`, JSON.stringify(result, null, 2));
+
+    //ファイル削除
+    oldFilesDel(targetDate);
   }
 }
 
 getPage();
+
+
+
+// console.log(Deno.readDir(`docs`))

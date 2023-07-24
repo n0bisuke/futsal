@@ -6,7 +6,7 @@ const targetDate = datetime().toZonedTime("Asia/Tokyo").format("YYYYMMdd");
 
 const DOMAIN = 'labola.jp';
 const AREA = 'area-13';
-const DAY = `day-${targetDate}`;
+
 // let pageCount = 1;
 
 //イベント情報のパース
@@ -93,8 +93,8 @@ const oldFilesDel = async (targetDate: string) => {
 let events: any[] = [];
 
 // deno-lint-ignore no-inferrable-types
-const getPage = async (pageCount:number = 1) => {
-
+const getPage = async (pageCount:number = 1, targetDate:string) => {
+  const DAY = `day-${targetDate}`;
   const BASE_URL = `https://${DOMAIN}/reserve/events/search/personal/${AREA}/${DAY}/?page=${pageCount}`;
   const json = fetch(BASE_URL);
   const html = await (await json).text();
@@ -103,7 +103,7 @@ const getPage = async (pageCount:number = 1) => {
     console.log(`page ${pageCount}`);
     const eventsParts = parseEvent(html);
     events = [...events, ...eventsParts];
-    getPage(++pageCount);
+    getPage(++pageCount, targetDate);
   }else{
     console.log(`done`);
     // console.log(events);
@@ -122,7 +122,18 @@ const getPage = async (pageCount:number = 1) => {
   }
 }
 
-getPage();
+const main = () => {
+  const currenDate = datetime().toZonedTime("Asia/Tokyo");
+  const currentHour = currenDate.hour;
+  console.log(currentHour) //現在時
+  
+  const targetDate = currenDate.add({day: currentHour+1}).format("YYYYMMdd");
+  console.log(currenDate.format("YYYYMMdd"), targetDate)
+
+  getPage(1, targetDate);
+}
+
+main();
 
 
 

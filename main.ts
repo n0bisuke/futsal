@@ -1,18 +1,13 @@
-
 import { datetime } from "https://deno.land/x/ptera@v1.0.2/mod.ts";
 // timezone
 // datetime().toZonedTime("Asia/Tokyo");
-const targetDate = datetime().toZonedTime("Asia/Tokyo").format("YYYYMMMMdd");
+const targetDate = datetime().toZonedTime("Asia/Tokyo").format("YYYYMMdd");
 // datetime("2021-06-30T21:15:30.200");
 
 const DOMAIN = 'labola.jp';
 const AREA = 'area-13';
 const DAY = `day-${targetDate}`;
-
-const BASE_URL = `https://${DOMAIN}/reserve/events/search/personal/${AREA}/${DAY}`;
-
-
-const json = fetch(BASE_URL);
+// let pageCount = 1;
 
 //イベント情報のパース
 const parseEvent = (html:string) => {
@@ -71,9 +66,38 @@ const parseEvent = (html:string) => {
   return events;
 }
 
-json.then(response => response.text())
-    .then(html => parseEvent(html))
-    .then(async eventList => {
-      console.log(eventList);
-      await Deno.writeTextFile("output.json", JSON.stringify(eventList, null, 2));
-    });
+//次のページはあるかどうか
+const hasNextPage = (html:string) => {
+  const hasNextPage = !html.includes('<li><span><i class="i14 next m0">次へ</i></span></li>');
+  // console.log(hasNextPage);
+  return hasNextPage;
+}
+
+let events: any[] = [];
+
+// deno-lint-ignore no-inferrable-types
+const getPage = async (pageCount:number = 1) => {
+
+  const BASE_URL = `https://${DOMAIN}/reserve/events/search/personal/${AREA}/${DAY}/?page=${pageCount}`;
+  const json = fetch(BASE_URL);
+  const html = await (await json).text();
+
+  if(hasNextPage(html)){
+    console.log(`page ${pageCount}`);
+    const eventsParts = parseEvent(html);
+    events = [...events, ...eventsParts];
+    getPage(++pageCount);
+  }else{
+    console.log(`done`);
+    console.log(events);
+
+    const result = {
+      date: targetDate,
+      eventCount: events.length,
+      events: events,
+    }
+    await Deno.writeTextFile("output.json", JSON.stringify(result, null, 2));
+  }
+}
+
+getPage();

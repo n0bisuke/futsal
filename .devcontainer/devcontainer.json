@@ -1,6 +1,6 @@
 {
-  "name": "@appName@",
-  "image": "hayd/debian-deno",
+  "name": "@latest",
+  "image": "denoland/deno:latest",
   "forwardPorts": [8000],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"

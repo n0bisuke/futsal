@@ -13,7 +13,7 @@ jobs:
         - uses: actions/checkout@master
         - uses: denoland/setup-deno@v1
           with:
-            deno-version: v1.x
+            deno-version: canary
 
         # - run: deno run https://deno.land/std/examples/welcome.ts
         - name: run

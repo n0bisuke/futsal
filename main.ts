@@ -118,7 +118,7 @@ const getPage = async (pageCount:number = 1, targetDate:string) => {
     await Deno.writeTextFile(`docs/${targetDate}.json`, JSON.stringify(result, null, 2));
 
     //ファイル削除
-    oldFilesDel(targetDate);
+    // oldFilesDel(targetDate);
   }
 }
 

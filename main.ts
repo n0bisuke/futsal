@@ -130,7 +130,8 @@ const main = () => {
   const targetDate = currenDate.add({day: currentHour+1}).format("YYYYMMdd");
   console.log(currenDate.format("YYYYMMdd"), targetDate)
 
-  getPage(1, targetDate);
+  getPage(1, currenDate.format("YYYYMMdd")); //今日のデータ
+  getPage(1, targetDate); //N日後のデータ
 }
 
 main();

@@ -93,6 +93,8 @@ const oldFilesDel = async (targetDate: string) => {
 // deno-lint-ignore no-inferrable-types
 const getPage = async (targetDate:string , events:arr, pageCount:number = 1) => {
   const DAY = `day-${targetDate}`;
+
+  //EX: https://labola.jp/reserve/events/search/personal/area-13/day-20230910/?page=5
   const BASE_URL = `https://${DOMAIN}/reserve/events/search/personal/${AREA}/${DAY}/?page=${pageCount}`;
   const json = fetch(BASE_URL);
   const html = await (await json).text();
@@ -145,13 +147,11 @@ const main = async () => {
   let events: any[] = [];
   await getPage(currenDate.format("YYYYMMdd"), events); //今日のデータ
 
-  // events = []; //初期化
-  // await getPage(targetDate, events); //N日後のデータ
-
   events = []; //初期化
-  await getPage('20230910', events); //N日後のデータ
+  await getPage(targetDate, events); //N日後のデータ
 
-  // https://labola.jp/reserve/events/search/personal/area-13/day-20230910/?page=5
+  // events = []; //初期化
+  // await getPage('20230910', events); //N日後のデータ
 }
 
 main();

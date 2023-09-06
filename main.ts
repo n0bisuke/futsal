@@ -127,11 +127,12 @@ const getPage = async (targetDate:string , events:arr, pageCount:number = 1) => 
 
 
 /*
-現在時を取得し、その時間+1をN日後として取得してデータをスクレイピング
+現在時を取得し、その時間(H)に対してH + (H + 1)とH + (H + 2)を計算し、N日後として取得してデータをスクレイピング
+
 例えば
-- 現在時刻が0時なら、1日後のデータを取得する
-- 現在時刻が1時(AM)なら、2日後のデータを取得する
-- 現在時刻が23時なら、24日後のデータを取得する
+- 現在時刻が0時なら、1日後と2日後のデータを取得する
+- 現在時刻が1時なら、3日後と4日後のデータを取得する
+- 現在時刻が23時なら、47日後と48日後のデータを取得する
 */
 const main = async () => {
   
@@ -139,18 +140,26 @@ const main = async () => {
   const currentHour = currenDate.hour;
   console.log('現在:'+ currentHour +'時です。') //現在時
   
-  const targetDate = currenDate.add({day: currentHour+1}).format("YYYYMMdd");
+  // N days later
+  const n1 = currentHour + (currentHour+1); //t1 = H + (H + 1)
+  const n2 = currentHour + (currentHour+2); //t2 = H + (H + 2)
+
+  const targetDate1 = currenDate.add({day: n1}).format("YYYYMMdd");
+  const targetDate2 = currenDate.add({day: n2}).format("YYYYMMdd");
   console.log('今日の日付:' + currenDate.format("YYYYMMdd"));
-  console.log(`対象日(${currentHour+1}日後の日付): ${targetDate}です。`);
+  console.log(`対象日1(${n1}日後の日付): ${targetDate1}です。`);
+  console.log(`対象日2(${n2}日後の日付): ${targetDate2}です。`);
   console.log(`--------`);
 
   let events: any[] = [];
   await getPage(currenDate.format("YYYYMMdd"), events); //今日のデータ
 
   events = []; //初期化
-  await getPage(targetDate, events); //N日後のデータ
+  await getPage(targetDate1, events); //H + (H + 1)日後のデータ
 
-  // events = []; //初期化
+  events = []; //初期化
+  await getPage(targetDate2, events); //H + (H + 2)日後のデータ
+
   // await getPage('20230910', events); //N日後のデータ
 }
 

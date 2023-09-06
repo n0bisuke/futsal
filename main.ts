@@ -90,48 +90,68 @@ const oldFilesDel = async (targetDate: string) => {
   }
 }
 
-let events: any[] = [];
-
 // deno-lint-ignore no-inferrable-types
-const getPage = async (pageCount:number = 1, targetDate:string) => {
+const getPage = async (targetDate:string , events:arr, pageCount:number = 1) => {
   const DAY = `day-${targetDate}`;
   const BASE_URL = `https://${DOMAIN}/reserve/events/search/personal/${AREA}/${DAY}/?page=${pageCount}`;
   const json = fetch(BASE_URL);
   const html = await (await json).text();
 
+  //とりあえずFetch
+  console.log(`${targetDate}: page ${pageCount} Fetch...`);
+  const eventsParts = parseEvent(html);
+  events = [...events, ...eventsParts];
+  
   if(hasNextPage(html)){
-    console.log(`page ${pageCount}`);
-    const eventsParts = parseEvent(html);
-    events = [...events, ...eventsParts];
-    getPage(++pageCount, targetDate);
+    //次のページへ
+    return getPage(targetDate, events,  ++pageCount);
   }else{
     console.log(`done`);
     // console.log(events);
 
     const result = {
+      url: BASE_URL,
       lastUpdated: datetime().toZonedTime("Asia/Tokyo").format("YYYY/MM/dd HH:mm:ss"),
       date: targetDate,
       eventCount: events.length,
       events: events,
     }
     //ファイル書き込み
-    await Deno.writeTextFile(`docs/${targetDate}.json`, JSON.stringify(result, null, 2));
-
+    return Deno.writeTextFile(`docs/${targetDate}.json`, JSON.stringify(result, null, 2));
     //ファイル削除
     // oldFilesDel(targetDate);
   }
 }
 
-const main = () => {
+
+/*
+現在時を取得し、その時間+1をN日後として取得してデータをスクレイピング
+例えば
+- 現在時刻が0時なら、1日後のデータを取得する
+- 現在時刻が1時(AM)なら、2日後のデータを取得する
+- 現在時刻が23時なら、24日後のデータを取得する
+*/
+const main = async () => {
+  
   const currenDate = datetime().toZonedTime("Asia/Tokyo");
   const currentHour = currenDate.hour;
-  console.log(currentHour) //現在時
+  console.log('現在:'+ currentHour +'時です。') //現在時
   
   const targetDate = currenDate.add({day: currentHour+1}).format("YYYYMMdd");
-  console.log(currenDate.format("YYYYMMdd"), targetDate)
+  console.log('今日の日付:' + currenDate.format("YYYYMMdd"));
+  console.log(`対象日(${currentHour+1}日後の日付): ${targetDate}です。`);
+  console.log(`--------`);
 
-  getPage(1, currenDate.format("YYYYMMdd")); //今日のデータ
-  getPage(1, targetDate); //N日後のデータ
+  let events: any[] = [];
+  await getPage(currenDate.format("YYYYMMdd"), events); //今日のデータ
+
+  // events = []; //初期化
+  // await getPage(targetDate, events); //N日後のデータ
+
+  events = []; //初期化
+  await getPage('20230910', events); //N日後のデータ
+
+  // https://labola.jp/reserve/events/search/personal/area-13/day-20230910/?page=5
 }
 
 main();

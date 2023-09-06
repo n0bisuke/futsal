@@ -1,8 +1,8 @@
 {
   "url": "https://labola.jp/reserve/events/search/personal/area-13/day-20230908/?page=5",
-  "lastUpdated": "2023/09/07 01:31:48",
+  "lastUpdated": "2023/09/07 01:38:16",
   "date": "20230908",
-  "eventCount": 80,
+  "eventCount": 82,
   "events": [
     {
       "url": "https://labola.jp/r/event/show/1599449/",
@@ -1171,6 +1171,30 @@
       "place": "LiGA DiVeRTiDA",
       "address": "東京都品川区東品川２丁目１ー１７",
       "price": "参加費 1,500円、学割 1,000円",
+      "level": {},
+      "timeRemaining": "1日"
+    },
+    {
+      "url": "https://labola.jp/r/event/show/1395741/",
+      "title": "【チーム参加OK・90分・15名】金曜個人フットサル",
+      "date": "2023/09/08",
+      "dayOfWeek": "金",
+      "time": "21:30〜23:00",
+      "place": "銀座deフットサル蒲田スタジアム",
+      "address": "東京都大田区西六郷1-3-15",
+      "price": "メンバー 1,700円、ビジター 2,000円",
+      "level": {},
+      "timeRemaining": "1日"
+    },
+    {
+      "url": "https://labola.jp/r/event/show/1551786/",
+      "title": "【21:30スタート！】華金JOIN",
+      "date": "2023/09/08",
+      "dayOfWeek": "金",
+      "time": "21:30〜23:00",
+      "place": "ミズノフットサルプラザ千住大橋",
+      "address": "東京都足立区千住緑町1-3-45",
+      "price": "参加費 1,100円、女性 550円",
       "level": {},
       "timeRemaining": "1日"
     }

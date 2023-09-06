@@ -1,4 +1,14 @@
 
+## URL
+
+https://github.com/n0bisuke/futsal
+
+## インストール
+```
+curl -fsSL https://deno.land/x/install/install.sh | sh
+```
+
+
 
 ```
 {

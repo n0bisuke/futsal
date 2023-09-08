@@ -1,6 +1,6 @@
 {
   "url": "https://labola.jp/reserve/events/search/personal/area-13/day-20230908/?page=3",
-  "lastUpdated": "2023/09/08 21:08:43",
+  "lastUpdated": "2023/09/08 22:06:59",
   "date": "20230908",
   "eventCount": 41,
   "events": [
@@ -545,8 +545,7 @@
       "place": "銀座deフットサル蒲田スタジアム",
       "address": "東京都大田区西六郷1-3-15",
       "price": "メンバー 1,700円、ビジター 2,000円",
-      "level": {},
-      "timeRemaining": "21分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1551786/",
@@ -557,8 +556,7 @@
       "place": "ミズノフットサルプラザ千住大橋",
       "address": "東京都足立区千住緑町1-3-45",
       "price": "参加費 1,100円、女性 550円",
-      "level": {},
-      "timeRemaining": "21分"
+      "level": {}
     }
   ]
 }

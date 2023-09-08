@@ -1,8 +1,8 @@
 {
-  "url": "https://labola.jp/reserve/events/search/personal/area-13/day-20230908/?page=2",
-  "lastUpdated": "2023/09/08 20:00:50",
+  "url": "https://labola.jp/reserve/events/search/personal/area-13/day-20230908/?page=3",
+  "lastUpdated": "2023/09/08 21:08:43",
   "date": "20230908",
-  "eventCount": 40,
+  "eventCount": 41,
   "events": [
     {
       "url": "https://labola.jp/r/event/show/1599449/",
@@ -401,8 +401,7 @@
         "mix": false,
         "enjoy": false
       },
-      "levelText": "オープン",
-      "timeRemaining": "29分"
+      "levelText": "オープン"
     },
     {
       "url": "https://labola.jp/r/event/show/1364324/",
@@ -417,8 +416,7 @@
         "mix": false,
         "enjoy": false
       },
-      "levelText": "オープン（中学生以上）",
-      "timeRemaining": "59分"
+      "levelText": "オープン（中学生以上）"
     },
     {
       "url": "https://labola.jp/r/event/show/1372367/",
@@ -429,8 +427,7 @@
       "place": "J-SOCIETY FOOTBALL PARK 多摩（旧フットサルステージ）",
       "address": "多摩市落合1-47",
       "price": "一律 1,500円",
-      "level": {},
-      "timeRemaining": "59分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1372468/",
@@ -441,8 +438,7 @@
       "place": "J-SOCIETY FOOTBALL PARK 多摩（旧フットサルステージ）",
       "address": "多摩市落合1-47",
       "price": "ネット予約早割 1,500円（2023/09/07 (木) まで）、当日予約 1,800円、チーム参加 1,800円",
-      "level": {},
-      "timeRemaining": "59分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1401289/",
@@ -457,8 +453,7 @@
         "mix": true,
         "enjoy": false
       },
-      "levelText": "ミックス（Lv4初級+～Lv5中級カテゴリー。その中でもレベル問わずフェアプレーで楽しめる方。）",
-      "timeRemaining": "59分"
+      "levelText": "ミックス（Lv4初級+～Lv5中級カテゴリー。その中でもレベル問わずフェアプレーで楽しめる方。）"
     },
     {
       "url": "https://labola.jp/r/event/show/1418619/",
@@ -472,6 +467,20 @@
       "level": {}
     },
     {
+      "url": "https://labola.jp/r/event/show/1425399/",
+      "title": "個サル【初心者クラス】みんなで楽しく身体を動かそう！＠ゼルビアフットサルパーク",
+      "date": "2023/09/08",
+      "dayOfWeek": "金",
+      "time": "21:00〜23:00",
+      "place": "ゼルビアフットサルパーク",
+      "address": "東京都町田市小野路町1701",
+      "level": {
+        "mix": false,
+        "enjoy": true
+      },
+      "levelText": "エンジョイ"
+    },
+    {
       "url": "https://labola.jp/r/event/show/1472906/",
       "title": "ガッツリ個人フットサル！！【金曜】21時00分～23時00分個人フットサル※感染予防対策条件有り",
       "date": "2023/09/08",
@@ -480,8 +489,7 @@
       "place": "フットサルクラブ東京　八幡山コート",
       "address": "東京都世田谷区八幡山2-18",
       "price": "個人枠 1,650円",
-      "level": {},
-      "timeRemaining": "59分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1557715/",
@@ -496,8 +504,7 @@
         "mix": false,
         "enjoy": true
       },
-      "levelText": "エンジョイ",
-      "timeRemaining": "59分"
+      "levelText": "エンジョイ"
     },
     {
       "url": "https://labola.jp/r/event/show/1605350/",
@@ -512,8 +519,7 @@
         "mix": false,
         "enjoy": true
       },
-      "levelText": "エンジョイ（経験者）",
-      "timeRemaining": "59分"
+      "levelText": "エンジョイ（経験者）"
     },
     {
       "url": "https://labola.jp/r/event/show/1606770/",
@@ -528,8 +534,7 @@
         "mix": false,
         "enjoy": true
       },
-      "levelText": "エンジョイ（初心者や女子に優しく！フェアプレー）",
-      "timeRemaining": "59分"
+      "levelText": "エンジョイ（初心者や女子に優しく！フェアプレー）"
     },
     {
       "url": "https://labola.jp/r/event/show/1395741/",
@@ -541,7 +546,7 @@
       "address": "東京都大田区西六郷1-3-15",
       "price": "メンバー 1,700円、ビジター 2,000円",
       "level": {},
-      "timeRemaining": "1時間29分"
+      "timeRemaining": "21分"
     },
     {
       "url": "https://labola.jp/r/event/show/1551786/",
@@ -553,7 +558,7 @@
       "address": "東京都足立区千住緑町1-3-45",
       "price": "参加費 1,100円、女性 550円",
       "level": {},
-      "timeRemaining": "1時間29分"
+      "timeRemaining": "21分"
     }
   ]
 }

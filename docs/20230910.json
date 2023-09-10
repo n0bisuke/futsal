@@ -1,8 +1,8 @@
 {
   "url": "https://labola.jp/reserve/events/search/personal/area-13/day-20230910/?page=8",
-  "lastUpdated": "2023/09/10 20:00:58",
+  "lastUpdated": "2023/09/10 21:07:54",
   "date": "20230910",
-  "eventCount": 147,
+  "eventCount": 146,
   "events": [
     {
       "url": "https://labola.jp/r/event/show/1605421/",
@@ -1085,21 +1085,6 @@
       "levelText": "ビギナー（レベル ★★★ 経験者の参加がほとんど）"
     },
     {
-      "url": "https://labola.jp/r/event/show/1611329/",
-      "title": "【緊急開催】1hレベル２個サル",
-      "date": "2023/09/10",
-      "dayOfWeek": "日",
-      "time": "12:00〜13:00",
-      "place": "アディダスフットサルパーク 池袋",
-      "address": "豊島区東池袋1－5－7 ヤマダ電機LABI1　LIFE SELECT　池袋6F／屋上",
-      "price": "参加料金 1,650円",
-      "level": {
-        "mix": false,
-        "enjoy": false
-      },
-      "levelText": "ビギナー"
-    },
-    {
       "url": "https://labola.jp/r/event/show/1612579/",
       "title": "エンジョイクラス｜楽しさ重視　和気あいあいと楽しめる個サル♪【王子駅から徒歩1分】",
       "date": "2023/09/10",
@@ -1955,8 +1940,7 @@
         "mix": false,
         "enjoy": true
       },
-      "levelText": "オープン（エンジョイできる方ならOK!）",
-      "timeRemaining": "9分"
+      "levelText": "オープン（エンジョイできる方ならOK!）"
     },
     {
       "url": "https://labola.jp/r/event/show/1601489/",
@@ -1971,8 +1955,7 @@
         "mix": true,
         "enjoy": true
       },
-      "levelText": "ミックス（☆初心者、女性大歓迎の　ミックス　エンジョイです♪）",
-      "timeRemaining": "19分"
+      "levelText": "ミックス（☆初心者、女性大歓迎の　ミックス　エンジョイです♪）"
     },
     {
       "url": "https://labola.jp/r/event/show/1214299/",
@@ -1987,8 +1970,7 @@
         "mix": false,
         "enjoy": true
       },
-      "levelText": "エンジョイ",
-      "timeRemaining": "59分"
+      "levelText": "エンジョイ"
     },
     {
       "url": "https://labola.jp/r/event/show/1473010/",
@@ -1998,8 +1980,7 @@
       "time": "21:00〜23:00",
       "place": "フットサルクラブ東京　八幡山コート",
       "address": "東京都世田谷区八幡山2-18",
-      "level": {},
-      "timeRemaining": "59分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1551249/",
@@ -2013,8 +1994,7 @@
         "mix": false,
         "enjoy": true
       },
-      "levelText": "エンジョイ",
-      "timeRemaining": "59分"
+      "levelText": "エンジョイ"
     },
     {
       "url": "https://labola.jp/r/event/show/1610462/",
@@ -2029,8 +2009,7 @@
         "mix": false,
         "enjoy": false
       },
-      "levelText": "オープン（自信のある方、お待ちしてます！）",
-      "timeRemaining": "59分"
+      "levelText": "オープン（自信のある方、お待ちしてます！）"
     }
   ]
 }

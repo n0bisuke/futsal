@@ -1,8 +1,8 @@
 {
   "url": "https://labola.jp/reserve/events/search/personal/area-13/day-20230910/?page=8",
-  "lastUpdated": "2023/09/10 21:07:54",
+  "lastUpdated": "2023/09/10 22:01:52",
   "date": "20230910",
-  "eventCount": 146,
+  "eventCount": 147,
   "events": [
     {
       "url": "https://labola.jp/r/event/show/1605421/",
@@ -1085,6 +1085,21 @@
       "levelText": "ビギナー（レベル ★★★ 経験者の参加がほとんど）"
     },
     {
+      "url": "https://labola.jp/r/event/show/1611329/",
+      "title": "【緊急開催】1hレベル２個サル",
+      "date": "2023/09/10",
+      "dayOfWeek": "日",
+      "time": "12:00〜13:00",
+      "place": "アディダスフットサルパーク 池袋",
+      "address": "豊島区東池袋1－5－7 ヤマダ電機LABI1　LIFE SELECT　池袋6F／屋上",
+      "price": "参加料金 1,650円",
+      "level": {
+        "mix": false,
+        "enjoy": false
+      },
+      "levelText": "ビギナー"
+    },
+    {
       "url": "https://labola.jp/r/event/show/1612579/",
       "title": "エンジョイクラス｜楽しさ重視　和気あいあいと楽しめる個サル♪【王子駅から徒歩1分】",
       "date": "2023/09/10",
@@ -1980,6 +1995,7 @@
       "time": "21:00〜23:00",
       "place": "フットサルクラブ東京　八幡山コート",
       "address": "東京都世田谷区八幡山2-18",
+      "price": " 1,650円",
       "level": {}
     },
     {

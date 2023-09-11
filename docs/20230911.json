@@ -1,6 +1,6 @@
 {
   "url": "https://labola.jp/reserve/events/search/personal/area-13/day-20230911/?page=4",
-  "lastUpdated": "2023/09/11 21:09:15",
+  "lastUpdated": "2023/09/11 22:08:24",
   "date": "20230911",
   "eventCount": 70,
   "events": [
@@ -884,8 +884,7 @@
         "mix": false,
         "enjoy": false
       },
-      "levelText": "中級者向け",
-      "timeRemaining": "20分"
+      "levelText": "中級者向け"
     },
     {
       "url": "https://labola.jp/r/event/show/1395381/",
@@ -896,8 +895,7 @@
       "place": "銀座deフットサル蒲田スタジアム",
       "address": "東京都大田区西六郷1-3-15",
       "price": "メンバー(早割1) 1,600円（2023/09/10 (日) まで）、メンバー 1,700円、ビジター 2,000円",
-      "level": {},
-      "timeRemaining": "20分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1425833/",
@@ -912,8 +910,7 @@
         "mix": false,
         "enjoy": false
       },
-      "levelText": "ソサイチを楽しくやりたい方ならどなたでも",
-      "timeRemaining": "20分"
+      "levelText": "ソサイチを楽しくやりたい方ならどなたでも"
     },
     {
       "url": "https://labola.jp/r/event/show/1495295/",
@@ -928,8 +925,7 @@
         "mix": false,
         "enjoy": false
       },
-      "levelText": "大人～中学生",
-      "timeRemaining": "20分"
+      "levelText": "大人～中学生"
     },
     {
       "url": "https://labola.jp/r/event/show/1346531/",
@@ -944,8 +940,7 @@
         "mix": false,
         "enjoy": false
       },
-      "levelText": "オープン",
-      "timeRemaining": "50分"
+      "levelText": "オープン"
     },
     {
       "url": "https://labola.jp/r/event/show/1424684/",
@@ -975,8 +970,7 @@
         "mix": true,
         "enjoy": false
       },
-      "levelText": "ビギナー（ミックス）",
-      "timeRemaining": "50分"
+      "levelText": "ビギナー（ミックス）"
     }
   ]
 }

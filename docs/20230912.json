@@ -1,8 +1,8 @@
 {
   "url": "https://labola.jp/reserve/events/search/personal/area-13/day-20230912/?page=4",
-  "lastUpdated": "2023/09/12 19:01:55",
+  "lastUpdated": "2023/09/12 20:00:57",
   "date": "20230912",
-  "eventCount": 79,
+  "eventCount": 76,
   "events": [
     {
       "url": "https://labola.jp/r/event/show/1337916/",
@@ -530,8 +530,7 @@
         "mix": false,
         "enjoy": true
       },
-      "levelText": "オープン（エンジョイできる方ならOK!）",
-      "timeRemaining": "3分"
+      "levelText": "オープン（エンジョイできる方ならOK!）"
     },
     {
       "url": "https://labola.jp/r/event/show/1395428/",
@@ -542,8 +541,7 @@
       "place": "銀座deフットサル蒲田スタジアム",
       "address": "東京都大田区西六郷1-3-15",
       "price": "メンバー 1,700円、ビジター 2,000円",
-      "level": {},
-      "timeRemaining": "28分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1611752/",
@@ -557,8 +555,7 @@
         "mix": false,
         "enjoy": false
       },
-      "levelText": "初級者~経験者",
-      "timeRemaining": "28分"
+      "levelText": "初級者~経験者"
     },
     {
       "url": "https://labola.jp/r/event/show/1612603/",
@@ -569,8 +566,7 @@
       "place": "ジェクサー・フットサルクラブアトレ大井町",
       "address": "品川区大井1-2-1",
       "price": "おひとり 1,650円",
-      "level": {},
-      "timeRemaining": "28分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1337608/",
@@ -585,8 +581,7 @@
         "mix": true,
         "enjoy": false
       },
-      "levelText": "ミックス",
-      "timeRemaining": "58分"
+      "levelText": "ミックス"
     },
     {
       "url": "https://labola.jp/r/event/show/1346255/",
@@ -601,8 +596,7 @@
         "mix": false,
         "enjoy": true
       },
-      "levelText": "エンジョイ",
-      "timeRemaining": "58分"
+      "levelText": "エンジョイ"
     },
     {
       "url": "https://labola.jp/r/event/show/1346605/",
@@ -617,8 +611,7 @@
         "mix": false,
         "enjoy": false
       },
-      "levelText": "競技志向",
-      "timeRemaining": "58分"
+      "levelText": "競技志向"
     },
     {
       "url": "https://labola.jp/r/event/show/1470953/",
@@ -629,8 +622,7 @@
       "place": "銀座deフットサル西東京アスタジアム",
       "address": "東京都西東京市田無町２丁目１番１号",
       "price": "メンバー(早割) 1,600円（2023/09/11 (月) まで）、メンバー 1,800円、ビジター 2,000円",
-      "level": {},
-      "timeRemaining": "58分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1474868/",
@@ -640,8 +632,7 @@
       "time": "20:00〜22:00",
       "place": "銀座deフットサル西東京アスタジアム",
       "address": "東京都西東京市田無町２丁目１番１号",
-      "level": {},
-      "timeRemaining": "58分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1503265/",
@@ -656,8 +647,7 @@
         "mix": false,
         "enjoy": true
       },
-      "levelText": "エンジョイ（※禁止事項あります。）",
-      "timeRemaining": "58分"
+      "levelText": "エンジョイ（※禁止事項あります。）"
     },
     {
       "url": "https://labola.jp/r/event/show/1533508/",
@@ -672,8 +662,7 @@
         "mix": false,
         "enjoy": true
       },
-      "levelText": "エンジョイ（初心者、ブランクある方、リハビリなど）",
-      "timeRemaining": "58分"
+      "levelText": "エンジョイ（初心者、ブランクある方、リハビリなど）"
     },
     {
       "url": "https://labola.jp/r/event/show/1563160/",
@@ -688,8 +677,7 @@
         "mix": false,
         "enjoy": true
       },
-      "levelText": "エンジョイ（中級※ 画像参照）",
-      "timeRemaining": "58分"
+      "levelText": "エンジョイ（中級※ 画像参照）"
     },
     {
       "url": "https://labola.jp/r/event/show/1567782/",
@@ -704,8 +692,7 @@
         "mix": false,
         "enjoy": false
       },
-      "levelText": "Over30",
-      "timeRemaining": "58分"
+      "levelText": "Over30"
     },
     {
       "url": "https://labola.jp/r/event/show/1585514/",
@@ -720,8 +707,7 @@
         "mix": true,
         "enjoy": true
       },
-      "levelText": "ミックス（ガチ(経験者)とエンジョイ(未経験者)で分かれます。）",
-      "timeRemaining": "58分"
+      "levelText": "ミックス（ガチ(経験者)とエンジョイ(未経験者)で分かれます。）"
     },
     {
       "url": "https://labola.jp/r/event/show/1590728/",
@@ -732,8 +718,7 @@
       "place": "パライーゾ東陽町",
       "address": "東京都江東区南砂2－6－11",
       "price": " 1,500円",
-      "level": {},
-      "timeRemaining": "58分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1606017/",
@@ -743,13 +728,12 @@
       "time": "20:00〜22:00",
       "place": "TOPS FOOTBALL PARK 立川",
       "address": "東京都立川市曙町2-11-2 フロム中武屋上",
-      "price": "当日１５時までのご予約で(通常1500円) 1,500円、次枠連続参加で（＋５００円） 1,900円",
+      "price": "当日１５時までのご予約で(通常1500円) 1,500円、次枠連続参加で（＋５００円） 2,000円",
       "level": {
         "mix": false,
         "enjoy": false
       },
-      "levelText": "Over30（男性限定（around30を目安））",
-      "timeRemaining": "58分"
+      "levelText": "Over30（男性限定（around30を目安））"
     },
     {
       "url": "https://labola.jp/r/event/show/1611521/",
@@ -764,8 +748,7 @@
         "mix": true,
         "enjoy": false
       },
-      "levelText": "ミックス（※ミックスとガチでチーム分けするのでどちらの方でも楽しめます！）",
-      "timeRemaining": "58分"
+      "levelText": "ミックス（※ミックスとガチでチーム分けするのでどちらの方でも楽しめます！）"
     },
     {
       "url": "https://labola.jp/r/event/show/1612611/",
@@ -780,8 +763,7 @@
         "mix": false,
         "enjoy": false
       },
-      "levelText": "基本的にはサッカー・フットサル経験者の【止める・蹴る・走る・頑張れる】の基礎技術がある方を対象としています。",
-      "timeRemaining": "58分"
+      "levelText": "基本的にはサッカー・フットサル経験者の【止める・蹴る・走る・頑張れる】の基礎技術がある方を対象としています。"
     },
     {
       "url": "https://labola.jp/r/event/show/1593701/",
@@ -792,8 +774,7 @@
       "place": "FC東京パーク府中",
       "address": "東京都府中市宮町1-41-2",
       "price": "メンバー 1,500円、ビジター 2,000円",
-      "level": {},
-      "timeRemaining": "8分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1525567/",
@@ -814,7 +795,7 @@
       "place": "FUTBOL SALA 町田（フットサラ町田）",
       "address": "東京都町田市原町田6-4-1",
       "level": {},
-      "timeRemaining": "1時間43分"
+      "timeRemaining": "44分"
     },
     {
       "url": "https://labola.jp/r/event/show/1125872/",
@@ -825,7 +806,7 @@
       "place": "bonera FUTSAL FIELD EDOGAWA/HIRAI",
       "address": "東京都江戸川区小松川3-3-2",
       "level": {},
-      "timeRemaining": "1時間58分"
+      "timeRemaining": "59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1259053/",
@@ -837,7 +818,7 @@
       "address": "品川区大井1-2-1",
       "price": "おひとり 1,870円",
       "level": {},
-      "timeRemaining": "1時間58分"
+      "timeRemaining": "59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1364429/",
@@ -853,7 +834,7 @@
         "enjoy": true
       },
       "levelText": "エンジョイ（中学生以上）",
-      "timeRemaining": "1時間58分"
+      "timeRemaining": "59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1400947/",
@@ -869,7 +850,7 @@
         "enjoy": true
       },
       "levelText": "エンジョイ（Lv4初級+～Lv5中級カテゴリー。その中でもレベル問わずフェアプレーで楽しめる方。）",
-      "timeRemaining": "1時間58分"
+      "timeRemaining": "59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1418323/",
@@ -884,8 +865,7 @@
         "mix": false,
         "enjoy": true
       },
-      "levelText": "エンジョイ（※禁止事項あります。　まったり～ゆっくり～エンジョイクラスです。）",
-      "timeRemaining": "58分"
+      "levelText": "エンジョイ（※禁止事項あります。　まったり～ゆっくり～エンジョイクラスです。）"
     },
     {
       "url": "https://labola.jp/r/event/show/1424781/",
@@ -900,7 +880,7 @@
         "enjoy": false
       },
       "levelText": "オープン",
-      "timeRemaining": "1時間58分"
+      "timeRemaining": "59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1433095/",
@@ -915,7 +895,7 @@
         "enjoy": true
       },
       "levelText": "エンジョイ（Lv1豆級～Lv3初級。プレースピードを合わせていただき、週半ばに無理せず適度に運動したい方。）",
-      "timeRemaining": "1時間58分"
+      "timeRemaining": "59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1473113/",
@@ -927,7 +907,7 @@
       "address": "東京都世田谷区八幡山2-18",
       "price": " 1,650円",
       "level": {},
-      "timeRemaining": "1時間58分"
+      "timeRemaining": "59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1547439/",
@@ -943,7 +923,7 @@
         "enjoy": true
       },
       "levelText": "オープン（エンジョイできる方ならOK!）",
-      "timeRemaining": "1時間58分"
+      "timeRemaining": "59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1557723/",
@@ -959,19 +939,7 @@
         "enjoy": false
       },
       "levelText": "ビギナー",
-      "timeRemaining": "1時間58分"
-    },
-    {
-      "url": "https://labola.jp/r/event/show/1591341/",
-      "title": "【早割り開始！3日前予約で３５０円OFFです！】個人フットサル！芝コート！3日前まで無料キャンセル可能！",
-      "date": "2023/09/12",
-      "dayOfWeek": "火",
-      "time": "21:00〜23:00",
-      "place": "フットサルクラブ東京　東陽町コート　屋外人工芝・室内バスケコート　　※４月１日（土）以降レンタルコート価格改定いたします。",
-      "address": "東京都江東区新砂１－１０－５",
-      "price": "早割り料金 1,300円（2023/09/09 (土) まで）、通常料金 1,650円",
-      "level": {},
-      "timeRemaining": "1時間58分"
+      "timeRemaining": "59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1611315/",
@@ -987,7 +955,7 @@
         "enjoy": true
       },
       "levelText": "エンジョイ（初心者や女子に優しく！フェアプレー）",
-      "timeRemaining": "1時間58分"
+      "timeRemaining": "59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1613624/",
@@ -1002,7 +970,7 @@
         "enjoy": true
       },
       "levelText": "ガチ目のエンジョイ企画です！",
-      "timeRemaining": "1時間58分"
+      "timeRemaining": "59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1614285/",
@@ -1018,7 +986,7 @@
         "enjoy": true
       },
       "levelText": "エンジョイ（和気あいあいとした雰囲気の中、楽しくボールを蹴りましょう！ 上級者は節度をもったプレーをお願いします。）",
-      "timeRemaining": "1時間58分"
+      "timeRemaining": "59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1615029/",
@@ -1029,22 +997,6 @@
       "place": "GINZA de FUTSAL 新宿スタジアム",
       "address": "新宿区新宿3-29-1",
       "level": {}
-    },
-    {
-      "url": "https://labola.jp/r/event/show/1421098/",
-      "title": "個人ソサイチ／110分コース／◉スパイク使用OK‼︎全天候型ドーム、ソサイチ専用ラインありの人工芝コートを体感しよう！",
-      "date": "2023/09/12",
-      "dayOfWeek": "火",
-      "time": "21:10〜23:00",
-      "place": "ソサイチ<span class=\"ccc\">｜</span>J-SOCIETY FOOTBALL PARK 多摩（旧フットサルステージ）",
-      "address": "多摩市落合1-47",
-      "price": "早割料金 1,800円（2023/09/11 (月) まで）、当日料金 2,100円",
-      "level": {
-        "mix": false,
-        "enjoy": true
-      },
-      "levelText": "オープン（エンジョイできる方ならOK!）",
-      "timeRemaining": "2時間8分"
     },
     {
       "url": "https://labola.jp/r/event/show/1395792/",
@@ -1067,39 +1019,23 @@
       "address": "東京都江東区南砂2－6－11",
       "price": " 1,500円",
       "level": {},
-      "timeRemaining": "2時間28分"
-    },
-    {
-      "url": "https://labola.jp/r/event/show/1612612/",
-      "title": "★★★ 90分個人参加フットサル ※ 2チームで進行（オープン）※【JR町田駅ターミナル改札口徒歩1分】",
-      "date": "2023/09/12",
-      "dayOfWeek": "火",
-      "time": "21:30〜23:00",
-      "place": "CATORZE14 FUTSAL PARK 町田（カトルゼ14フットサルパーク町田）☆JR町田駅から徒歩1分",
-      "address": "東京都町田市原町田4-1-17",
-      "price": " 1,650円",
-      "level": {
-        "mix": false,
-        "enjoy": false
-      },
-      "levelText": "オープン（男女混合フットサル）",
-      "timeRemaining": "2時間28分"
+      "timeRemaining": "1時間29分"
     },
     {
       "url": "https://labola.jp/r/event/show/1606021/",
-      "title": "火曜22:00 60分【早割】ちょいサル 〜立川駅北口徒歩２分のフットサル場〜",
+      "title": "火曜22:00 60分【早割延長！】ちょいサル 〜立川駅北口徒歩２分のフットサル場〜",
       "date": "2023/09/12",
       "dayOfWeek": "火",
       "time": "22:00〜23:00",
       "place": "TOPS FOOTBALL PARK 立川",
       "address": "東京都立川市曙町2-11-2 フロム中武屋上",
-      "price": "当日２０時までのご予約で(通常1200円) 1,000円、前枠からの連続参加で(+500円) 0円",
+      "price": "当日２２時までのご予約で(通常1200円) 1,000円、前枠からの連続参加で(+500円) 0円",
       "level": {
         "mix": true,
         "enjoy": true
       },
       "levelText": "エンジョイ（ミックス）",
-      "timeRemaining": "2時間58分"
+      "timeRemaining": "1時間59分"
     },
     {
       "url": "https://labola.jp/r/event/show/1612631/",
@@ -1115,7 +1051,7 @@
         "enjoy": false
       },
       "levelText": "ビギナー（レベル ★★★ 経験者の参加がほとんど）",
-      "timeRemaining": "2時間58分"
+      "timeRemaining": "1時間59分"
     }
   ]
 }

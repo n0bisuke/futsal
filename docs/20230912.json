@@ -1,6 +1,6 @@
 {
   "url": "https://labola.jp/reserve/events/search/personal/area-13/day-20230912/?page=4",
-  "lastUpdated": "2023/09/12 21:09:26",
+  "lastUpdated": "2023/09/12 22:07:51",
   "date": "20230912",
   "eventCount": 74,
   "events": [
@@ -990,8 +990,7 @@
       "place": "パライーゾ東陽町",
       "address": "東京都江東区南砂2－6－11",
       "price": " 1,500円",
-      "level": {},
-      "timeRemaining": "20分"
+      "level": {}
     },
     {
       "url": "https://labola.jp/r/event/show/1606021/",
@@ -1006,8 +1005,7 @@
         "mix": true,
         "enjoy": true
       },
-      "levelText": "エンジョイ（ミックス）",
-      "timeRemaining": "50分"
+      "levelText": "エンジョイ（ミックス）"
     }
   ]
 }

@@ -9,24 +9,35 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
         - uses: actions/checkout@v3
+
         - uses: denoland/setup-deno@v1
           with:
             deno-version: v1.x # Run with latest stable Deno.
+        
+        - name: cache deno installation and deno.land dependencies
+          uses: actions/cache@v2
+          with:
+            key: ${{ runner.os }}-deno-${{ hashFiles('**/*') }}
+            restore-keys: ${{ runner.os }}-deno-
+            path: |
+              /home/runner/.deno
+              /home/runner/.cache/deno/deps/https/deno.land
 
         # - run: deno run https://deno.land/std/examples/welcome.ts
         - name: run
           run: deno task start
-
+        
         - name: git commit & push
           run: |
             git config core.filemode false
             if ! git diff --exit-code --quiet
             then
-                git add --update
-                git config user.name github-actions
-                git config user.email action@github.com
-                git commit -m "Commit by github-actions"
-                git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{github.ref}}
+              git add --update
+              git config user.name github-actions
+              git config user.email action@github.com
+              git commit -m "Commit by github-actions"
+              git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{github.ref}}
             fi
